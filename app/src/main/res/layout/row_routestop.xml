@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Large Text"
+            android:text="--"
             android:id="@+id/name"
             android:layout_weight="1"
             />
@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Large Text"
+            android:text="--"
             android:id="@+id/nearTime1"
             android:textColor="#7c0202"
             />
@@ -36,7 +36,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Large Text"
+            android:text="--"
             android:id="@+id/nearTime2"
             android:layout_weight="1"
             android:gravity="center"
@@ -44,7 +44,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Large Text"
+            android:text="--"
             android:id="@+id/nearTime3"
             android:layout_weight="1"
             android:gravity="center"
