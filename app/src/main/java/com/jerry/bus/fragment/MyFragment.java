@@ -129,7 +129,7 @@ public class MyFragment extends Fragment {
                 String lang = Prefs.getString("lang", "EN");
                 OkHttpUtils
                         .get()
-                        .url("http://etav2.kmb.hk/")
+                        .url("http://etav3.kmb.hk/")
                         .addParams("t", UUID.randomUUID().toString())
                         .addParams("action", "geteta")
                         .addParams("lang", "EN".equals(lang) ? "en" : "tc")
